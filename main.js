@@ -17,8 +17,8 @@ export class countThousandPrimes {
     this.rows = 0;
     this.pages = 1;
   }
-  //Esse método conta printa cada número primo até o "this.limit". This.limit vale 1000 por default
-  //Salvando em uma matriz.
+  // This method prints each prime number up to "this.limit". This limit is worth 1000 by default
+  // saved in array
   count() {
     while (this.iterator < this.limit) {
       do {
@@ -52,8 +52,8 @@ export class countThousandPrimes {
       this.pageNumber
     );
   }
-  //Este método organiza como serão printado os números.
-  //Dispostos em ordem vertical e separados por um pipe "|"
+  //This method organizes how numbers will be printed
+  //Placed in a vertical order and separated by a pipe
   organize(rows, pages, limit, prime, organizer, pageNumber) {
     while (pages <= limit) {
       console.log(`Page ${pageNumber}`);
