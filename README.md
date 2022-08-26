@@ -4,9 +4,7 @@
 
 #
 
-# R: Retorna os primeiros 1000 números primos, sendo contados verticalmente. O código é limitado a 4 colunas e
-
-# todos os números são divididos por um pipe "|"
+# R: Retorna os primeiros 1000 números primos, sendo contados verticalmente. O código é limitado a 4 colunas e todos os números são divididos por um pipe "|"
 
 #
 
